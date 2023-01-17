@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/comida.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cardápio | Online</title>
+</head>
+<body>    
+    <h1>Monte seu cardápio!</h1>
+
+    <div id="form">
+        <form data-js="add-food-form">
+            
+            <label for="comida">Comida: </label>
+            <input name="comida"></input>
+            
+            <br>
+            <br>
+            
+            <label for="bebida">Bebida: </label>
+            <input name="bebida"></input>
+            
+            <br>
+            <br>
+
+            <input type="submit"></input>
+            
+        </form>
+    </div>
+
+    <table border="2" data-js="show-menu">
+        <caption>Cardápio</caption>
+        <tr>
+            <th>Comida</th>
+            <th>Bebida</th>
+        </tr>
+    </table>
+
+    <ul data-js="movies-list"></ul>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
